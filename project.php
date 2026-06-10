@@ -1,7 +1,7 @@
 <?php include 'header.php'?>
 
 
-<main>
+<main class="mainProject">
 
 
     <div class="container" style="margin-top: 250px;">

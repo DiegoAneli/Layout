@@ -1,6 +1,6 @@
 <?php include 'header.php'?>
 
-<main>
+<main class="mainHome">
 
     <div class="parallax">
         <div class="content">
