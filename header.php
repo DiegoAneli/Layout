@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Document</title>
+    <title>Linus Torvalds - Developer</title>
 </head>
 <body class="bg_personal">
 
@@ -18,7 +18,7 @@
                 <div class="container">
                     <a class="navbar-brand logo" href="index.php">
                         <i class="fas fa-gem"></i>
-                        Personal Website
+                        Linus Torvalds
                     </a>
                     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2">
@@ -31,20 +31,16 @@
                                 <a class="nav-link active" href="index.php">Home</a>
                             </li>
                              <li class="nav-item">
-                                <a class="nav-link" href="chisiamo.php">Chi siamo</a>
+                                <a class="nav-link" href="about.php">About me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="prodotti.php">Prodotti</a>
+                                <a class="nav-link" href="project.php">Project</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contatti.php">Contatti</a>
+                                <a class="nav-link" href="contacts.php">Contacts</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-
-
-
-
     </header>

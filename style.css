@@ -45,7 +45,10 @@ section {
 
 
 
+.navbar-toggler {
 
+    color : #FFC107;
+}
 
 
 
@@ -66,7 +69,7 @@ section {
 
 /* 🔥 EFECTO HOVER */
 .panel:hover {
-  height: 550px; /* Tamaño de card */
+  height: 550px; 
   transform: scale(1.02);
 }
 

@@ -4,9 +4,9 @@
 
     <div class="parallax">
         <div class="content">
-            <h1 class="animate__animated animate__fadeInDown">Welcome to Our Website</h1>
-            <p class="animate__animated animate__fadeInUp animate__delay-1s">Experience the power of modern design.</p>
-            <button class="btn btn-primary btn-lg animate__animated animate__bounceIn animate__delay-2s">Get Started</button>
+            <h1 style="color: #FFC107" class="animate__animated animate__fadeInDown">Hi, I'm your Developer!</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Experience the power of modern website & software.</p>
+            <button class="btn btn-warning btn-lg animate__animated animate__bounceIn animate__delay-2s">Project</button>
         </div>
     </div>
 
