@@ -1,24 +1,35 @@
 <?php include 'header.php'?>
 
 <main>
-
-    <h2>Contatti</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quisquam facilis alias expedita qui consectetur accusamus error tempora asperiores quibusdam quod, consequuntur temporibus illo commodi incidunt consequatur illum cum ad!</p>
-
-    <form action="" method="post">
-
-
-        Username : <input type="text" name="username">
-
-        Password : <input type="password" name="password">
-
-        <input type="submit" value="Login">
-
-
-    </form>
-
-
-
+ 
+    <div class="container" style="margin-top: 250px;">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <h4 class="mb-0">Login</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="" method="post">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </main>
 

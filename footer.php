@@ -1,8 +1,8 @@
         <hr>
 
-        <footer>
+        <footer class="text-white">
 
-            <p>
+            <p class="text-white text-center">
                 <!--Mostro nel footer l anno del sito Y -> ANNO -->
                 <?php echo date('Y') ?>
 
@@ -11,5 +11,7 @@
 
         </footer>
 
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
