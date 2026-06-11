@@ -6,6 +6,7 @@ Tecnologie scelte nel progetto
 - git, codice committato su repo 
 - npm, librerie richieste : bootstrap, chart.js
 - Verrà utilizzato mysqli e PDO Api native di Php.
+- utilizzare Fullcalendar per calendario 
 
 
 

@@ -2,17 +2,19 @@ const panels = document.querySelectorAll('.panel');
 
 panels.forEach(panel => {
 
-  // CLICK
-  panel.addEventListener('click', () => {
-    removeActiveClasses();
-    panel.classList.add('active');
-  });
+  // CLICK apre e chiude
+  panel.addEventListener('click', (e) => {
+    
+    if(e.target.closest('a, button')) return;
 
-  
-  panel.addEventListener('mouseleave', () => {
-    if (!panel.classList.contains('clicked')) {
-      panel.classList.remove('active');
+    const wasActive = panel.classList.contains('active');
+
+    removeActiveClasses();
+
+    if(!wasActive){
+      panel.classList.add('active');
     }
+    
   });
 
 });

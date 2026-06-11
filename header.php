@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark navbar-gradient fixed-top">
                 <div class="container">
                     <a class="navbar-brand logo" href="index.php">
-                        <i class="fas fa-gem"></i>
+                        <i style="color: #FFC107;" class="fas fa-gem"></i>
                         Linus Torvalds
                     </a>
                     
@@ -31,13 +31,16 @@
                                 <a class="nav-link active" href="index.php">Home</a>
                             </li>
                              <li class="nav-item">
-                                <a class="nav-link" href="about.php">About me</a>
+                                <a class="nav-link" href="prenotazioni.php">Prenota Sessione</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="project.php">Project</a>
+                                <a class="nav-link" href="buyproject.php">Acquisto Software</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contacts.php">Contacts</a>
+                                <a class="btn btn-outline-warning" href="register.php">Register</a>
+                            </li>
+                             <li class="nav-item ms-lg-2">
+                                <a class="btn btn-warning" href="login.php">Login</a>
                             </li>
                         </ul>
                     </div>

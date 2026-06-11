@@ -2,7 +2,7 @@
 
         <footer class="text-white">
 
-            <p class="text-white text-center">
+            <p style="color: #FFC107;" class="text-center">
                 <!--Mostro nel footer l anno del sito Y -> ANNO -->
                 <?php echo date('Y') ?>
 
