@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
             //faccio l hash della pswrd
             $passwordHash = password_hash($password, PASSWORD_DEFAULT);
 
-            //iNSERIMENTO DEL NUOVO UTENTE
+            //INSERIMENTO DEL NUOVO UTENTE
             $stmt = $pdo->prepare('INSERT INTO users(name, email, password, role) 
                                    VALUES (:name, :email, :password, :role)');
 
@@ -90,13 +90,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 
 <main class="mainProject">
-
     <section class="bg_personal min-vh-100 py-5">
-
         <div class="container">
-
             <div class="row">
-
                 <div class="col-lg-6">
 
                     <h2 class="fw-bold text-warning text-center mb-4">Register</h2>
@@ -172,24 +168,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 
                     </form>
-
-
                 </div>
-
             </div>
-
-
-
-
         </div>
-
-
-
-
     </section>
-
-
-
 </main>
 
 

@@ -15,9 +15,7 @@ class Db{
 
         if(self::$instance === null){
 
-            $dsn = 'mysql:host=' . DB_HOST
-                    . ';dbname' . DB_NAME
-                    . ';charset=' . DB_CHARSET;
+            $dsn = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=' . DB_CHARSET;
 
             $options = [
 
@@ -28,7 +26,7 @@ class Db{
             ];
          
             try{
-                self::$instance = new PDO($dsn, DB_USER, DB_PASS, $option);
+                self::$instance = new PDO($dsn, DB_USER, DB_PASS, $options);
             } catch (PDOException $e){
 
                 die('Connessione fallita: ' . $e->getMessage());
