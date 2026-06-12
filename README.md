@@ -8,7 +8,8 @@ Tecnologie scelte nel progetto
 - Verrà utilizzato mysqli e PDO Api native di Php.
 - utilizzare Fullcalendar per calendario 
 
-
+PER PUSHARE IL SEED DEL DB SU PHPMYADMIN
+/Applications/XAMPP/xamppfiles/bin/mysql -u root -p < sql/schema.sql
 
 
 Il cliente chiede di avere un applicazione formata da una Landing page di presentazione, 

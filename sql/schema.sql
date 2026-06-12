@@ -1,15 +1,15 @@
---- Creo il db
+-- Creo il db
 
---- creo un database se non esiste dal nome mentoring_app
+-- creo un database se non esiste dal nome mentoring_app
 CREATE DATABASE IF NOT EXISTS mentoring_app
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
---- UNA VOLTA CREATO, UTILIZZALO
+-- UNA VOLTA CREATO, UTILIZZALO
 USE mentoring_app;
 
 
---- Tabella Utenti
+-- Tabella Utenti
 
 CREATE TABLE IF NOT EXISTS users (
 
